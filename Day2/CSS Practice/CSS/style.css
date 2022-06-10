@@ -1,0 +1,71 @@
+div
+{
+	background-color: purple ;
+	width: 20%;
+	/*height: 200px;*/
+	height: 50vh;
+	margin: 10px;
+	color: white;
+	background-size: cover;
+	/*background-size: contain;*/
+	background-repeat: no-repeat;
+	/*padding: 10px 20px 50px 30px;*/
+	/*border-radius: 10px 100px 50px;*/
+/*	border-left: 2px solid blue;*/
+	/*border: 2px solid #000000;*/
+	/*display: inline-block;*/
+	float: left;
+	box-sizing: border-box;
+	overflow: scroll;
+	/*overflow-x: scroll;
+	overflow-y: scroll;*/
+	/*opacity: 0.3;*/
+}
+/*#id1
+{
+	background-color: orange; 
+}*/
+.bg-yellow{
+	background-color: purple ; 
+}
+.w500{
+	background-color: pink ; 
+	
+}
+/*body{
+	background-image: url('../images/img1.jpg');
+}*/
+/*.bg-image1
+{
+  background-image: url('../images/p1.jpg');
+}
+.bg-image2
+{
+background-image: url('../images/p2.jpg');
+}
+.bg-image3
+{
+background-image: url('../images/p3.jpg');
+}
+.bg-image4
+{
+background-image: url('../images/p4.jpg');
+}
+.bg-image5
+{
+background-image: url('../images/img1.jpg');
+}*/
+/*div:hover
+{
+  background-color: red;
+  font-size: 20px;
+  font-width : bold;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-image: url('../images/img2.jpg');
+  opacity: 1;
+
+}*/
+.clear{
+	clear: both;
+}
