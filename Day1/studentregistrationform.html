@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Tage</title>
+</head>
+<body>
+	<h1 align="center"> Registration Form </h1>
+	<hr />
+<form action="submit.html" method="post">
+	<table align="center" cellpadding="10">
+		<tbody>
+			<tr>
+				<td><label for="Student_name"> Student name :</label></td>
+				
+				<td>
+					<input type="text" name="Student_name" required="" size="20" minlength="6" maxlength="20"  placeholder="Enter Your Name" id="user_name"> <br / >
+				</td>
+			</tr>
+			<tr>
+				<td><label for="Email"> Email :</label></td>
+				
+				<td>
+					<input type="Email" name="Email" required="" size="20" placeholder="Enter Your Email" id="Email"> <br / >
+				</td>
+			</tr>
+			<tr>
+				<td><label for="Phone_no"> Phone_no :</label></td>
+				
+				<td>
+					<input type="number" name="Phone_no" required="" size="10" placeholder="Enter Your Number" id="number"> <br / >
+				</td>
+			</tr>
+			<tr>
+				<td><label for="Hobby"> Hobby :</label></td>
+				
+				<td>
+					<input type="checkbox" name="Hobby[]"   id="Hobby"> Hobby 1
+					<input type="checkbox" name="Hobby[]"  id="Hobby" > Hobby 2
+					<input type="checkbox" name="Hobby[]"   id="Hobby" > Hobby 3
+					 <br / >
+				</td>
+			</tr>
+			<tr>
+				<td><label for="City"> City :</label></td>
+				
+				<td>
+					<select name="City">
+						<option>City 1</option>
+						<option>City 2</option>
+						<option>City 3</option>
+						<option>City 4</option>
+						<option>City 5s</option>
+					</select>
+					 <br / >
+				</td>
+			</tr>
+			<tr>
+				<td><label for="Color"> Color :</label></td>
+				
+				<td>
+					<input type="Color" name="Color" required=""" id="Color"> <br / >
+				</td>
+			</tr>
+			<tr>
+				<td><label for="date"> date :</label></td>
+				
+				<td>
+					<input type="date" name="date" required=""" id="date"> <br / >
+				</td>
+			</tr>
+			<tr>
+				<td><label for="range"> range :</label></td>
+				
+				<td>
+					<input type="range" name="range" required=""" id="range"> <br / >
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" name="submit" required="" size="5">  </td>
+			</tr>
+		</tbody>
+	</table>
+	
+
+</form>
+</body>
+</html>
