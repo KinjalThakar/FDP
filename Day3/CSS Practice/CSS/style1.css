@@ -1,0 +1,45 @@
+div{
+     width: 20%;
+	/*height: 200px;*/
+	height: 50vh;
+	margin: 10px;
+	/*color: white;*/
+	background-size: cover;
+	float: left;
+	border: 2px solid #ff0000;
+	 opacity: 0.3;
+/*	 box-shadow: -5px -2px 10px grey;*/
+}
+div:hover
+{
+  
+  font-size: 20px;
+  opacity: 1;
+  /*box-shadow: -5px -2px 10px grey;*/
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  }
+  
+/*.bg-1
+{
+background-image: url('../images/img3.jpg');
+}
+.bg-2
+{
+background-image: url('../images/img4.jpg');
+}
+.bg-3
+{
+background-image: url('../images/img5.jpg');
+}
+.bg-4
+{
+background-image: url('../images/img6.jpg');
+}
+.clear{
+	clear: both;
+	padding: 5px;
+}*/
+.hello{
+
+	text-shadow: 3px 3px 5px #ff0000;
+}

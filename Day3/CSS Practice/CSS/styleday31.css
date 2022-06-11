@@ -1,0 +1,93 @@
+*{
+	color: black;
+}
+nav{
+	background: linear-gradient(90deg, rgba(58,148,30,1) 0%, rgba(121,9,40,1) 35%, rgba(0,212,255,1) 100%);
+	height: 100px;
+}
+ul{
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(90deg, rgba(58,148,30,1) 0%, rgba(121,9,40,1) 35%, rgba(0,212,255,1) 100%);
+	padding: 0px;
+}
+ul li
+{
+	background-color: pink;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	width: 100px;
+	list-style-type: none; 
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	/*float: left;*/
+	/*margin: 0px auto; center ma ave image or text*/
+}
+ul li a{
+	text-decoration: none;
+}
+ul li:hover 
+{
+	background-color: yellow;
+	/*color: black !important;*/
+	/*text-shadow: 5px -2px 2px ;*/
+
+}
+ul li:hover a
+{
+	color: hotpink !important;
+
+}
+.text{
+		background-color: pink;
+		height: 240px;
+		width:50%;
+		float: left;
+		box-sizing: border-box;
+		border: 2px solid black;
+		
+}
+.img{
+	 background-color: pink;
+		height: 240px;
+		width:50%;
+		float: left;
+		box-sizing: border-box;
+		border: 2px solid black;
+}
+.feet{
+	/*position: fixed;*/
+	clear: both;
+}
+.section{
+	background: linear-gradient(90deg, rgba(58,148,30,1) 0%, rgba(121,9,40,1) 35%, rgba(0,212,255,1) 100%);
+ 	height: 240px;
+	width:50%;
+	/*float: left;*/
+	box-sizing: border-box;
+	border: 2px solid black;
+	margin: 15px auto;
+	padding: 10px;
+}
+/*.section:hover{
+	transform: rotate(45deg);
+	transform: rotatez(90deg);
+	animation-name: changecolor;
+	animation-duration: 2s;
+	transition: 2s;
+}*/
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+div {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
