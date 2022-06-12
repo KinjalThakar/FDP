@@ -1,0 +1,18 @@
+@font-face
+{
+	src:url('../font/Blank Magic.ttf');
+	font-family: myfirstfont;
+
+}
+p{
+	font-family:kinjalfont;
+	color: purple;
+	font-size: 50px;
+	text-shadow: 3px 3px yellow;
+}
+@font-face
+{
+	src:url('../font/Silverkids.otf');
+	font-family: kinjalfont;
+
+}

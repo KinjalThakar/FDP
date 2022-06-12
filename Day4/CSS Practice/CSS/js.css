@@ -1,0 +1,22 @@
+#slider.slider-imgs.img-slider{
+	width: 100%;
+	padding: 20px;
+}
+.img-slider{
+	width: 50%;
+	
+}
+.float-left{
+	float: left;
+}
+
+.w30{
+	width: 30%;
+	/*height: 100px;*/
+	box-sizing: border-box;
+}
+.w70{
+	width: 70%;
+	/*height: 100px;*/
+	box-sizing: border-box;
+}
