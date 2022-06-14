@@ -43,18 +43,23 @@ ul{
 	float: left;
 
 }
+
+/*element.style {
+    margin: 0px;
+}*/
 .text
 {
 	text-align: center;
-	margin-top: 60px;
 	font-size: 20px;
-	
+	margin-left: 150px;
+	margin-top: 40px;
+	float: left;
 	
 }
 #p6
 {
 	text-align: center;
-	
+	margin-top: 0px;
 	/*font-weight: bold;*/
 	
 }

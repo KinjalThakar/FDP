@@ -1,0 +1,84 @@
+body
+{
+margin: 0px;
+}
+.header
+{
+background-color: gray;
+padding: 10px;
+height: 50px;
+
+
+}
+.header .logo
+{
+float: left;
+/*padding: 10px;*/
+width: 25%;
+font-size: 30px;
+font-weight: bold;
+line-height: 30px;
+padding: 0px 20px;
+}
+.container
+{
+/*background-color: gray;*/
+margin-top: 15px;
+}
+.container .box
+{
+float: left;
+/*background-color: gray;*/
+/*width: 50%;*/
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+padding: 50px 0px;
+}
+.b1
+{
+	width: 22%;
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 0px;
+	height: 400px;
+	
+}
+.b2
+{
+	width: 78%;
+	/*height: 450px;*/
+	margin-bottom: 10px;
+	background-color: gray;
+	height: 70px;
+}
+.b3
+{
+	width: 78%;
+	/*height: 450px;*/
+	margin-bottom: 20px;
+	background-color:gray;
+	height: 230px;
+}
+.container .box .inner-box
+{
+	/*float: left;
+	width: 90%*/
+    margin: 10px;
+    /*height: 300px;*/
+}
+.bg-gray
+{
+padding: 20px 0px;
+/*background-color: gray;*/
+}
+.footer
+{ 
+clear: both;
+margin-top: 5px;
+background-color: gray;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+padding: 10px;
+}
